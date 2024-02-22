@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: aliceblue;
+}
+.container{
+    min-width: 20vh;
+}
+.colours{
+    display:flex;
+    padding-top: 1.5rem;
+    justify-content:space-evenly;
+}
+.yellow{
+     width:5rem;
+     height:4rem;
+     background-color: yellow;
+    cursor: pointer;
+}
+.green{
+    width: 5rem;
+    height: 4rem;
+    background-color: green;
+    cursor: pointer;
+}
+.red{
+    width: 5rem;
+    height: 4rem;
+    background-color: red;
+    cursor: pointer;
+}
+.pink{
+    width: 5rem;
+    height: 4rem;
+    background-color: pink;
+    cursor: pointer;
+}
+.msg{
+    padding-top: 2rem;
+    font-size: 1rem;
+}
